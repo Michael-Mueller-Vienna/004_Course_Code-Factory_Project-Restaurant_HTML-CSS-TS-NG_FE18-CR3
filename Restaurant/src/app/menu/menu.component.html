@@ -1,1 +1,24 @@
-<p>menu works!</p>
+<div class="selfbody p-4">
+    <div class="d-flex justify-content-evenly flex-wrap">
+      <div *ngFor="let product of products; index as productId" class="card mb-5" style="width: 16rem;">
+          
+        <img src="{{product.image}}" class="card-img-top" >
+          <div class="card-body">
+            <h4 class="card-title">{{product.name}}</h4>
+            <p>{{product.price | currency}}</p>
+            <hr>
+
+            <p class="card-text">{{product.descriptionSmall}}</p>
+              <div *ngIf="product.availability == true; else notAvailable">
+                <a class="btn btn-primary" routerLink="products/{{productId}}">Details</a>
+                <a class="btn btn-success" (click)="addtoCart(product)"></a>
+              </div>
+        
+              <ng-template #notAvailable>
+                <p class="bg-danger text-center">This is not available</p>
+              </ng-template>
+
+            </div>
+          </div>
+      </div>
+    </div>
