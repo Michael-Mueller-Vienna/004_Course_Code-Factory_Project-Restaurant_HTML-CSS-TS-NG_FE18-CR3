@@ -1,6 +1,9 @@
-import { Component } from '@angular/core';
-import { products } from "../products"
-import { Iproducts } from "../Iproducts"
+import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Params } from '@angular/router';
+import { products } from "../products";
+import { Iproducts } from "../Iproducts";
+import { CartService } from '../cart.service';
+
 
 @Component({
   selector: 'app-menu',
@@ -14,4 +17,19 @@ export class MenuComponent implements OnInit {
 
   product:Iproducts = {} as Iproducts;
   id:number = 0;
-}
+
+  constructor(
+    private route: ActivatedRoute,
+    private cartService: CartService 
+  ) { }
+
+  addtoCart(product:Iproducts) {
+    this.cartService.addtoCart(product);
+  }
+  
+  ngOnInit(): void {
+    this.route.params.subscribe((params: Params) => {
+    this.id = +params['productId'];
+    this.product = products[this.id];
+  });}
+  }
