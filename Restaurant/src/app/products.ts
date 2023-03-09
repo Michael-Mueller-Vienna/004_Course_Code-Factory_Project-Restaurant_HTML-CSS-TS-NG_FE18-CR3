@@ -11,7 +11,7 @@ export const products =[
 
 {
         name: "Surf and Turf",
-        image: "https://images.pexels.com/photos/981743/pexels-photo-981743.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/566345/pexels-photo-566345.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 13.99,
         descriptionSmall: "A seafood and meat experience",
         details: "Grilled lobster tail and 8oz ribeye steak",
@@ -21,7 +21,7 @@ export const products =[
 
 {
         name: "Spicy Lamb Burger",
-        image: "https://images.pexels.com/photos/1020513/pexels-photo-1020513.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/776314/pexels-photo-776314.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 10.75,
         descriptionSmall: "A spiced up patty",
         details: "Lamb patty with a twist of spices and aioli",
@@ -31,7 +31,7 @@ export const products =[
 
 {
         name: "BBQ Bacon Burger",
-        image: "https://images.pexels.com/photos/2104050/pexels-photo-2104050.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/6545673/pexels-photo-6545673.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 9.50,
         descriptionSmall: "A meaty delight",
         details: "Beef patty with bacon, BBQ sauce and melted cheese",
@@ -41,7 +41,7 @@ export const products =[
 
 {
         name: "Smoked Sausage Plate",
-        image: "https://images.pexels.com/photos/678842/pexels-photo-678842.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/8522778/pexels-photo-8522778.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 10.00,
         descriptionSmall: "A smoked classic",
         details: "Mixture of smoked sausages, if you wish served with a salad",
@@ -51,7 +51,7 @@ export const products =[
 
 {
         name: "Chicken Fried Steak",
-        image: "https://images.pexels.com/photos/241499/pexels-photo-241499.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/2338407/pexels-photo-2338407.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 11.25,
         descriptionSmall: "Crispy and delicious",
         details: "Breaded steak topped with gravy and served with plain yoghurt",
@@ -61,7 +61,7 @@ export const products =[
 
 {
         name: "Pork Chop",
-        image: "https://images.pexels.com/photos/1089734/pexels-photo-1089734.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/11600756/pexels-photo-11600756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 9.50,
         descriptionSmall: "A classic",
         details: "Grilled pork chop if you wish with vegetables",
@@ -71,7 +71,7 @@ export const products =[
 
 {
         name: "Bison Burger",
-        image: "https://images.pexels.com/photos/2124578/pexels-photo-2124578.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/5908046/pexels-photo-5908046.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 12.00,
         descriptionSmall: "A wild experience",
         details: "Grilled bison burger with cheddar cheese, lettuce and tomato",
@@ -81,7 +81,7 @@ export const products =[
 
 {
         name: "Beef Kebab",
-        image: "https://images.pexels.com/photos/918450/pexels-photo-918450.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/604660/pexels-photo-604660.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 9.25,
         descriptionSmall: "A Mediterranean favorite",
         details: "Tender beef cubes marinated in herbs and spices, if you wish served with hummus and tahini",
@@ -91,7 +91,7 @@ export const products =[
 
 {
         name: "Beef Biryani",
-        image: "https://images.pexels.com/photos/924397/pexels-photo-924397.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://images.pexels.com/photos/9609846/pexels-photo-9609846.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
         price: 11.00,
         descriptionSmall: "A rich Indian dish",
         details: "Richly spiced beef, served with raita and pickle",
@@ -101,7 +101,7 @@ export const products =[
 
 {
         name: "Beef Stroganoff",
-        image: "https://images.pexels.com/photos/167645/pexels-photo-167645.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://cdn.pixabay.com/photo/2018/03/27/22/26/pan-3267631_1280.jpg",
         price: 12.50,
         descriptionSmall: "A European classic",
         details: "Tender beef slices in a creamy mushroom sauce, served with mashed eggs",
@@ -111,7 +111,7 @@ export const products =[
 
 {
         name: "Beef Brisket Sandwich",
-        image: "https://images.pexels.com/photos/2220017/pexels-photo-2220017.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        image: "https://cdn.pixabay.com/photo/2021/09/25/17/40/beef-brisket-6655501_1280.jpg",
         price: 10.75,
         descriptionSmall: "A flavorful sandwich",
         details: "Smoked beef brisket, topped with melted cheese and served with greek yoghurt cream",

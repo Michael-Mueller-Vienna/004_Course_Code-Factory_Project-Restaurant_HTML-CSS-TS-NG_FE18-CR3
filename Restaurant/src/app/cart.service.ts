@@ -18,4 +18,6 @@ export class CartService {
       product.amount++;
     }
   }
+
+  
 }

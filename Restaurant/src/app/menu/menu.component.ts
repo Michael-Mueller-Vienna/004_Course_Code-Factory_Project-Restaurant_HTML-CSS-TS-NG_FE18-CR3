@@ -25,6 +25,7 @@ export class MenuComponent implements OnInit {
 
   addtoCart(product:Iproducts) {
     this.cartService.addtoCart(product);
+    console.log(this.cartService.items)
   }
   
   ngOnInit(): void {
